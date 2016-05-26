@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04205F301CF453B200438CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04205F2F1CF453B200438CA2 /* main.m */; };
+		04205F331CF453B200438CA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04205F321CF453B200438CA2 /* AppDelegate.m */; };
+		04205F361CF453B200438CA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04205F351CF453B200438CA2 /* ViewController.m */; };
+		04205F391CF453B200438CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04205F371CF453B200438CA2 /* Main.storyboard */; };
+		04205F3B1CF453B200438CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04205F3A1CF453B200438CA2 /* Assets.xcassets */; };
+		04205F3E1CF453B200438CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04205F3C1CF453B200438CA2 /* LaunchScreen.storyboard */; };
+		04205F491CF559D100438CA2 /* HJArticleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04205F481CF559D100438CA2 /* HJArticleVC.m */; };
+		04205F4D1CF5691100438CA2 /* HJBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 04205F4C1CF5691100438CA2 /* HJBaseApi.m */; };
+		04205F501CF579A500438CA2 /* HJArticleApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 04205F4F1CF579A500438CA2 /* HJArticleApi.m */; };
+		04205F541CF5927900438CA2 /* HJArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04205F531CF5927900438CA2 /* HJArticleModel.m */; };
+		04205F571CF5DBFF00438CA2 /* HJSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04205F561CF5DBFF00438CA2 /* HJSectionModel.m */; };
+		04205F5B1CF5DE4A00438CA2 /* HJImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04205F5A1CF5DE4A00438CA2 /* HJImageTableViewCell.m */; };
+		04205F5E1CF5DE5700438CA2 /* HJTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04205F5D1CF5DE5700438CA2 /* HJTextTableViewCell.m */; };
+		4291EA70125C9EBA303D2FF9 /* libPods-Lanwen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AC9883EB5214FE4EF738E5 /* libPods-Lanwen.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04205F2B1CF453B200438CA2 /* Lanwen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lanwen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04205F2F1CF453B200438CA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04205F311CF453B200438CA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04205F321CF453B200438CA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04205F341CF453B200438CA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04205F351CF453B200438CA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04205F381CF453B200438CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04205F3A1CF453B200438CA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04205F3D1CF453B200438CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04205F3F1CF453B200438CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04205F471CF559D100438CA2 /* HJArticleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJArticleVC.h; sourceTree = "<group>"; };
+		04205F481CF559D100438CA2 /* HJArticleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJArticleVC.m; sourceTree = "<group>"; };
+		04205F4B1CF5691100438CA2 /* HJBaseApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJBaseApi.h; sourceTree = "<group>"; };
+		04205F4C1CF5691100438CA2 /* HJBaseApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJBaseApi.m; sourceTree = "<group>"; };
+		04205F4E1CF579A500438CA2 /* HJArticleApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJArticleApi.h; sourceTree = "<group>"; };
+		04205F4F1CF579A500438CA2 /* HJArticleApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJArticleApi.m; sourceTree = "<group>"; };
+		04205F521CF5927900438CA2 /* HJArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJArticleModel.h; sourceTree = "<group>"; };
+		04205F531CF5927900438CA2 /* HJArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJArticleModel.m; sourceTree = "<group>"; };
+		04205F551CF5DBFF00438CA2 /* HJSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSectionModel.h; sourceTree = "<group>"; };
+		04205F561CF5DBFF00438CA2 /* HJSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSectionModel.m; sourceTree = "<group>"; };
+		04205F591CF5DE4A00438CA2 /* HJImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJImageTableViewCell.h; sourceTree = "<group>"; };
+		04205F5A1CF5DE4A00438CA2 /* HJImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJImageTableViewCell.m; sourceTree = "<group>"; };
+		04205F5C1CF5DE5700438CA2 /* HJTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTextTableViewCell.h; sourceTree = "<group>"; };
+		04205F5D1CF5DE5700438CA2 /* HJTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTextTableViewCell.m; sourceTree = "<group>"; };
+		0B773DD4F7AF8A9D382AB6E5 /* Pods-Lanwen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lanwen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lanwen/Pods-Lanwen.debug.xcconfig"; sourceTree = "<group>"; };
+		17AC9883EB5214FE4EF738E5 /* libPods-Lanwen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lanwen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28701EC0B4BBB5B13948B658 /* Pods-Lanwen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lanwen.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lanwen/Pods-Lanwen.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04205F281CF453B200438CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4291EA70125C9EBA303D2FF9 /* libPods-Lanwen.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04205F221CF453B200438CA2 = {
+			isa = PBXGroup;
+			children = (
+				04205F2D1CF453B200438CA2 /* Lanwen */,
+				04205F2C1CF453B200438CA2 /* Products */,
+				60ADE99FC99B023871FD2457 /* Pods */,
+				41B95BA9E48B1FE2C847D0F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04205F2C1CF453B200438CA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04205F2B1CF453B200438CA2 /* Lanwen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04205F2D1CF453B200438CA2 /* Lanwen */ = {
+			isa = PBXGroup;
+			children = (
+				04205F311CF453B200438CA2 /* AppDelegate.h */,
+				04205F321CF453B200438CA2 /* AppDelegate.m */,
+				04205F4A1CF568F800438CA2 /* Api */,
+				04205F451CF558F600438CA2 /* Controller */,
+				04205F511CF5925C00438CA2 /* Model */,
+				04205F581CF5DDB100438CA2 /* View */,
+				04205F461CF5590C00438CA2 /* Vendor */,
+				04205F2E1CF453B200438CA2 /* Supporting Files */,
+			);
+			path = Lanwen;
+			sourceTree = "<group>";
+		};
+		04205F2E1CF453B200438CA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04205F2F1CF453B200438CA2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04205F451CF558F600438CA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04205F341CF453B200438CA2 /* ViewController.h */,
+				04205F351CF453B200438CA2 /* ViewController.m */,
+				04205F471CF559D100438CA2 /* HJArticleVC.h */,
+				04205F481CF559D100438CA2 /* HJArticleVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04205F461CF5590C00438CA2 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				04205F371CF453B200438CA2 /* Main.storyboard */,
+				04205F3A1CF453B200438CA2 /* Assets.xcassets */,
+				04205F3C1CF453B200438CA2 /* LaunchScreen.storyboard */,
+				04205F3F1CF453B200438CA2 /* Info.plist */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		04205F4A1CF568F800438CA2 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				04205F4B1CF5691100438CA2 /* HJBaseApi.h */,
+				04205F4C1CF5691100438CA2 /* HJBaseApi.m */,
+				04205F4E1CF579A500438CA2 /* HJArticleApi.h */,
+				04205F4F1CF579A500438CA2 /* HJArticleApi.m */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		04205F511CF5925C00438CA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04205F521CF5927900438CA2 /* HJArticleModel.h */,
+				04205F531CF5927900438CA2 /* HJArticleModel.m */,
+				04205F551CF5DBFF00438CA2 /* HJSectionModel.h */,
+				04205F561CF5DBFF00438CA2 /* HJSectionModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04205F581CF5DDB100438CA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04205F591CF5DE4A00438CA2 /* HJImageTableViewCell.h */,
+				04205F5A1CF5DE4A00438CA2 /* HJImageTableViewCell.m */,
+				04205F5C1CF5DE5700438CA2 /* HJTextTableViewCell.h */,
+				04205F5D1CF5DE5700438CA2 /* HJTextTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		41B95BA9E48B1FE2C847D0F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17AC9883EB5214FE4EF738E5 /* libPods-Lanwen.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60ADE99FC99B023871FD2457 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B773DD4F7AF8A9D382AB6E5 /* Pods-Lanwen.debug.xcconfig */,
+				28701EC0B4BBB5B13948B658 /* Pods-Lanwen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04205F2A1CF453B200438CA2 /* Lanwen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04205F421CF453B200438CA2 /* Build configuration list for PBXNativeTarget "Lanwen" */;
+			buildPhases = (
+				1003017F4AC6BC17864B3AD4 /* Check Pods Manifest.lock */,
+				04205F271CF453B200438CA2 /* Sources */,
+				04205F281CF453B200438CA2 /* Frameworks */,
+				04205F291CF453B200438CA2 /* Resources */,
+				EA46EA15E0D2C7ADB8CD80F5 /* Embed Pods Frameworks */,
+				CE462CBA2A8194B8EB2A062B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lanwen;
+			productName = Lanwen;
+			productReference = 04205F2B1CF453B200438CA2 /* Lanwen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04205F231CF453B200438CA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = huijimuhe;
+				TargetAttributes = {
+					04205F2A1CF453B200438CA2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 04205F261CF453B200438CA2 /* Build configuration list for PBXProject "Lanwen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04205F221CF453B200438CA2;
+			productRefGroup = 04205F2C1CF453B200438CA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04205F2A1CF453B200438CA2 /* Lanwen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04205F291CF453B200438CA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04205F3E1CF453B200438CA2 /* LaunchScreen.storyboard in Resources */,
+				04205F3B1CF453B200438CA2 /* Assets.xcassets in Resources */,
+				04205F391CF453B200438CA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1003017F4AC6BC17864B3AD4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE462CBA2A8194B8EB2A062B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lanwen/Pods-Lanwen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA46EA15E0D2C7ADB8CD80F5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lanwen/Pods-Lanwen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04205F271CF453B200438CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04205F4D1CF5691100438CA2 /* HJBaseApi.m in Sources */,
+				04205F361CF453B200438CA2 /* ViewController.m in Sources */,
+				04205F541CF5927900438CA2 /* HJArticleModel.m in Sources */,
+				04205F571CF5DBFF00438CA2 /* HJSectionModel.m in Sources */,
+				04205F331CF453B200438CA2 /* AppDelegate.m in Sources */,
+				04205F301CF453B200438CA2 /* main.m in Sources */,
+				04205F491CF559D100438CA2 /* HJArticleVC.m in Sources */,
+				04205F501CF579A500438CA2 /* HJArticleApi.m in Sources */,
+				04205F5E1CF5DE5700438CA2 /* HJTextTableViewCell.m in Sources */,
+				04205F5B1CF5DE4A00438CA2 /* HJImageTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04205F371CF453B200438CA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04205F381CF453B200438CA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04205F3C1CF453B200438CA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04205F3D1CF453B200438CA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04205F401CF453B200438CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04205F411CF453B200438CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04205F431CF453B200438CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B773DD4F7AF8A9D382AB6E5 /* Pods-Lanwen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lanwen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huijimuhe.Lanwen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04205F441CF453B200438CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28701EC0B4BBB5B13948B658 /* Pods-Lanwen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lanwen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huijimuhe.Lanwen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04205F261CF453B200438CA2 /* Build configuration list for PBXProject "Lanwen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04205F401CF453B200438CA2 /* Debug */,
+				04205F411CF453B200438CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04205F421CF453B200438CA2 /* Build configuration list for PBXNativeTarget "Lanwen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04205F431CF453B200438CA2 /* Debug */,
+				04205F441CF453B200438CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04205F231CF453B200438CA2 /* Project object */;
+}
